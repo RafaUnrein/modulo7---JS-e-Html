@@ -15,31 +15,32 @@
 <body>
     <header>
         <div class="container">
-            <h1>FIFA 23</h1>            
+            <h1>Módulo 7 - HTML com JAVA SCRIPT</h1>            
         </div>
-    </header>   
-    <section id="contact">
+    </header> 
+    <section id="form">
         <div class="container">
             <h2>Comparar Valores</h2>
-            <div class="contatos">
-                <div>                    
+            <div class="form"> 
+                <div>                                 
                     <form id="form-comparar">
-                        <input type="text" id="numberA" required placeholder="Valor A">
-                        <input type="text" id="numberB" required placeholder="Valor B">
-                        <button id="btn_enviar" type="submit">Enviar</button>
+                        <label>Valor A</label>
+                        <input type="text" id="numberA" required placeholder="Digite um número"> 
+                        <p class="error2-message">Prencha este campo</p> 
+                        <label>Valor B</label>                                               
+                        <input type="text" id="numberB" required placeholder="Digite um número">    
+                        <p class="error3-message">Prencha este campo</p>                                            
+                        <button id="btn_enviar" type="submit">Calcular</button>
                     </form>
                     <p class="sucess-message"></p>
-                    <p class="error-message"></p>
-                    <p class="error2-message"></p>
-                </div>         
+                    <p class="error-message"></p> 
+                </div>                      
             </div>
         </div>
     </section>
     <footer>
-        <div class="container">
-            <p>
-                © FIFA 23 - Todos os direitos reservados EA Sports - 2022
-            </p>
+        <div>
+            <p>© FORMULÁRIO - Todos os direitos reservados Rafael Unrein Gomes - 2022</p>
         </div>
     </footer>
     <script src="main.js"></script>
